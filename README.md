@@ -11,6 +11,20 @@
 - **Temperature Conversion**: Converts temperature from Kelvin to Fahrenheit and Celsius.
 - **Error Handling**: Includes robust error handling for invalid inputs, API connection issues, and other potential errors.
 
+## Usage
+
+- Enter a U.S. zip code or a city name followed by a comma and the two-letter country code (e.g., `London, GB`).
+- The program will display the current weather and a 36-hour forecast.
+- Users can choose to search for another location or exit the program.
+
+## Error Handling
+
+The program includes error handling for:
+
+- **Invalid location input**: Alerts the user if the provided city or zip code is not found.
+- **API Connection Issues**: Handles API connectivity errors or timeout errors.
+- **Invalid User Input**: Prompts users to re-enter valid input if an invalid selection is made.
+
 ## Requirements
 
 - Python 3.x
